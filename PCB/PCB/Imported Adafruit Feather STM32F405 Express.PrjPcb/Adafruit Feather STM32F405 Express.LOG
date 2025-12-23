@@ -1,0 +1,99 @@
+Importer Log Report
+Project : Adafruit Feather STM32F405 Express.PrjPcb
+
+Section : Analyze Document - D:\DESK\T_Desk\3D Parts\PCBs\Dual-Node-Performance-Tracker\PCB\Adafruit Feather STM32F405 Express.brd
+    Analyzing data of D:\DESK\T_Desk\3D Parts\PCBs\Dual-Node-Performance-Tracker\PCB\Adafruit Feather STM32F405 Express.brd
+    Load settings
+    Load layers 176
+    Load board
+    Load Library "microbuilder"
+    Load Packages 23
+    Load Library "adafruit2"
+    Load Packages 1
+    Load Library "testpad"
+    Load Packages 1
+    ERROR: Unhandled typepackages3d
+    Load Library "adafruit_micro"
+    Load Packages 1
+    Load Library "feather_silks"
+    Load Packages 2
+    ERROR: Unhandled typemfgpreviewcolors
+    ERROR: Unhandled typeerrors
+EndSection
+
+Section : Analyze Document - D:\DESK\T_Desk\3D Parts\PCBs\Dual-Node-Performance-Tracker\PCB\Adafruit Feather STM32F405 Express.sch
+    Analyzing data of D:\DESK\T_Desk\3D Parts\PCBs\Dual-Node-Performance-Tracker\PCB\Adafruit Feather STM32F405 Express.sch
+    Load settings
+    Load layers 176
+    Load schematic
+    Load Libraries 5
+    Load Library "microbuilder"
+    Load Packages 113
+    ERROR: Unhandled typedimension
+    ERROR: Unhandled typedimension
+    ERROR: Unhandled typedimension
+    ERROR: Unhandled typedimension
+    ERROR: Unhandled typedimension
+    Load Symbols 28
+    Load DeviceSets 29
+    Load Library "supply1"
+    Load Packages 0
+    Load Symbols 2
+    Load DeviceSets 2
+    Load Library "adafruit2"
+    Load Packages 3
+    Load Symbols 1
+    Load DeviceSets 1
+    Load Library "testpad"
+    Load Packages 38
+    ERROR: Unhandled typepackages3d
+    Load Symbols 1
+    Load DeviceSets 1
+    ERROR: Unhandled typepackage3dinstances
+    ERROR: Unhandled typepackage3dinstances
+    ERROR: Unhandled typepackage3dinstances
+    ERROR: Unhandled typepackage3dinstances
+    ERROR: Unhandled typepackage3dinstances
+    ERROR: Unhandled typepackage3dinstances
+    ERROR: Unhandled typepackage3dinstances
+    ERROR: Unhandled typepackage3dinstances
+    ERROR: Unhandled typepackage3dinstances
+    ERROR: Unhandled typepackage3dinstances
+    ERROR: Unhandled typepackage3dinstances
+    ERROR: Unhandled typepackage3dinstances
+    ERROR: Unhandled typepackage3dinstances
+    ERROR: Unhandled typepackage3dinstances
+    ERROR: Unhandled typepackage3dinstances
+    ERROR: Unhandled typepackage3dinstances
+    ERROR: Unhandled typepackage3dinstances
+    ERROR: Unhandled typepackage3dinstances
+    ERROR: Unhandled typepackage3dinstances
+    ERROR: Unhandled typepackage3dinstances
+    ERROR: Unhandled typepackage3dinstances
+    ERROR: Unhandled typepackage3dinstances
+    ERROR: Unhandled typepackage3dinstances
+    ERROR: Unhandled typepackage3dinstances
+    ERROR: Unhandled typepackage3dinstances
+    ERROR: Unhandled typepackage3dinstances
+    ERROR: Unhandled typepackage3dinstances
+    ERROR: Unhandled typepackage3dinstances
+    ERROR: Unhandled typepackage3dinstances
+    ERROR: Unhandled typepackage3dinstances
+    ERROR: Unhandled typepackage3dinstances
+    ERROR: Unhandled typepackage3dinstances
+    ERROR: Unhandled typepackage3dinstances
+    ERROR: Unhandled typepackage3dinstances
+    ERROR: Unhandled typepackage3dinstances
+    ERROR: Unhandled typepackage3dinstances
+    ERROR: Unhandled typepackage3dinstances
+    ERROR: Unhandled typepackage3dinstances
+    Load Library "adafruit_micro"
+    Load Packages 1
+    Load Symbols 1
+    Load DeviceSets 1
+    Load Attributes 3
+    Load Classes 3
+    Load Parts 121
+    Load Sheets 1
+    ERROR: Unhandled type <errors>
+EndSection
