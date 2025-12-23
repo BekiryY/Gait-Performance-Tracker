@@ -1,0 +1,79 @@
+<mxfile host="Electron" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) draw.io/28.1.2 Chrome/138.0.7204.243 Electron/37.4.0 Safari/537.36" version="28.1.2">
+  <diagram name="Page-1" id="z_3mAVEE7UuEiA1ELKpx">
+    <mxGraphModel dx="859" dy="687" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="xOjLH9K2Y4jsKIUKez8T-8" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="xOjLH9K2Y4jsKIUKez8T-2" target="xOjLH9K2Y4jsKIUKez8T-3">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="xOjLH9K2Y4jsKIUKez8T-2" value="microcontroller&lt;div&gt;(STM32F303RE)&lt;/div&gt;" style="whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+          <mxGeometry x="290" y="130" width="100" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="xOjLH9K2Y4jsKIUKez8T-3" value="Radio transciever&lt;div&gt;(NRF24L01)&lt;/div&gt;" style="whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+          <mxGeometry x="440" y="140" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="xOjLH9K2Y4jsKIUKez8T-7" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="xOjLH9K2Y4jsKIUKez8T-4" target="xOjLH9K2Y4jsKIUKez8T-2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="xOjLH9K2Y4jsKIUKez8T-4" value="IMU&lt;div&gt;(MPU6050)&lt;/div&gt;" style="whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+          <mxGeometry x="160" y="140" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="xOjLH9K2Y4jsKIUKez8T-5" value="TX" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="490" y="140" width="30" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="xOjLH9K2Y4jsKIUKez8T-9" value="Data transmission" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="450" y="235" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="xOjLH9K2Y4jsKIUKez8T-10" value="signal processing&lt;br&gt;step counting&lt;div&gt;&lt;br&gt;&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="290" y="245" width="100" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="xOjLH9K2Y4jsKIUKez8T-11" value="&lt;div&gt;raw data harvesting&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="150" y="235" width="100" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="xOjLH9K2Y4jsKIUKez8T-27" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="xOjLH9K2Y4jsKIUKez8T-12" target="xOjLH9K2Y4jsKIUKez8T-18">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="xOjLH9K2Y4jsKIUKez8T-12" value="Radio transciever&lt;div&gt;(NRF24L01)&lt;/div&gt;" style="whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+          <mxGeometry x="640" y="140" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="xOjLH9K2Y4jsKIUKez8T-13" value="RX" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="640" y="139.83" width="30" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="xOjLH9K2Y4jsKIUKez8T-14" value="Data transmission" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="650" y="235" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="xOjLH9K2Y4jsKIUKez8T-15" value="" style="sketch=0;aspect=fixed;pointerEvents=1;shadow=0;dashed=0;html=1;labelPosition=center;verticalLabelPosition=bottom;verticalAlign=top;align=center;shape=mxgraph.mscae.enterprise.wireless_connection;rotation=-180;" vertex="1" parent="1">
+          <mxGeometry x="598" y="124.83000000000004" width="42" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="xOjLH9K2Y4jsKIUKez8T-16" value="" style="sketch=0;aspect=fixed;pointerEvents=1;shadow=0;dashed=0;html=1;labelPosition=center;verticalLabelPosition=bottom;verticalAlign=top;align=center;shape=mxgraph.mscae.enterprise.wireless_connection" vertex="1" parent="1">
+          <mxGeometry x="520" y="125" width="42" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="xOjLH9K2Y4jsKIUKez8T-30" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="xOjLH9K2Y4jsKIUKez8T-18" target="xOjLH9K2Y4jsKIUKez8T-24">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="xOjLH9K2Y4jsKIUKez8T-18" value="microcontroller&lt;div&gt;STM32F464C8T6&lt;/div&gt;" style="whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+          <mxGeometry x="770" y="130" width="100" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="xOjLH9K2Y4jsKIUKez8T-19" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="xOjLH9K2Y4jsKIUKez8T-20" target="xOjLH9K2Y4jsKIUKez8T-18">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="xOjLH9K2Y4jsKIUKez8T-20" value="&lt;div&gt;Heart Rate module&lt;/div&gt;(MAX30102)" style="whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+          <mxGeometry x="920" y="140" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="xOjLH9K2Y4jsKIUKez8T-21" value="signal processing&lt;br&gt;data merging&lt;div&gt;finalizing data format&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="745" y="245" width="150" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="xOjLH9K2Y4jsKIUKez8T-22" value="&lt;div&gt;raw data harvesting&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="910" y="235" width="100" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="xOjLH9K2Y4jsKIUKez8T-24" value="SD card module" style="whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+          <mxGeometry x="780" y="20" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="xOjLH9K2Y4jsKIUKez8T-26" value="&lt;div&gt;storing the running/walking/jogging session&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="670" y="45" width="100" height="30" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
