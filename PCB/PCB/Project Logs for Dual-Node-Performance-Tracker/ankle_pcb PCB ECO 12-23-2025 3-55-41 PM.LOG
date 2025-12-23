@@ -1,0 +1,7 @@
+Added Component: Designator=*(nrf24)
+Added Component: Designator=*(max30102)
+Added Component: Designator=*(sd)
+Added Component: Designator=*(nrf24)
+Added Component: Designator=*(mpu6050)
+Added Class: Name=ankle_sch
+Added Class: Name=wrist_sch
