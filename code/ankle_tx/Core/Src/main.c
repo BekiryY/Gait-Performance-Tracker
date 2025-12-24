@@ -116,7 +116,8 @@ int main(void)
   NRF24_Init(&hspi1, GPIOA, GPIO_PIN_9, GPIOC, GPIO_PIN_7);
   NRF24_SetTXAddress(TxAddress);
   NRF24_SetRFChannel(90);
-  NRF24_SetDataRate(NRF24_DR_1MBPS);
+  NRF24_SetDataRate(NRF24_DR_250KBPS);
+  NRF24_SetOutputPower(NRF24_PA_LOW);
   NRF24_SetCRCLength(NRF24_CRC_16);
   NRF24_SetTXMode();
 
