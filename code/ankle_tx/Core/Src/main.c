@@ -311,7 +311,7 @@ int main(void)
   	          UART_SendString("I2C Error.\r\n");
   	      }
 
-  	      HAL_Delay(20); // 50Hz Loop
+  	      LowPowerDelay(20); // 50Hz Loop in Sleep Mode
   	  }
 }
 
