@@ -197,20 +197,20 @@ int main(void)
   	      if (status == HAL_OK)
   	      {
   	          // 1. Parse raw data
-  	          int16_t ax_raw = (int16_t)(buffer[0] << 8 | buffer[1]);
-  	          int16_t ay_raw = (int16_t)(buffer[2] << 8 | buffer[3]);
-  	          int16_t az_raw = (int16_t)(buffer[4] << 8 | buffer[5]);
+  	          //int16_t ax_raw = (int16_t)(buffer[0] << 8 | buffer[1]);
+  	          //int16_t ay_raw = (int16_t)(buffer[2] << 8 | buffer[3]);
+  	          //int16_t az_raw = (int16_t)(buffer[4] << 8 | buffer[5]);
   	          int16_t tp_raw = (int16_t)(buffer[6] << 8 | buffer[7]);
-  	          int16_t gx_raw = (int16_t)(buffer[8] << 8 | buffer[9]);
+  	          //int16_t gx_raw = (int16_t)(buffer[8] << 8 | buffer[9]);
   	          int16_t gy_raw = (int16_t)(buffer[10] << 8 | buffer[11]);
   	          int16_t gz_raw = (int16_t)(buffer[12] << 8 | buffer[13]);
 
   	          // 2. Convert to float
-  	          data_imu.ax = ax_raw / OPERATION_4G + ACCEL_X_OFFSET;
-  	          data_imu.ay = ay_raw / OPERATION_4G + ACCEL_Y_OFFSET;
-  	          data_imu.az = az_raw / OPERATION_4G + ACCEL_Z_OFFSET;
+  	          //data_imu.ax = ax_raw / OPERATION_4G + ACCEL_X_OFFSET;
+  	          //data_imu.ay = ay_raw / OPERATION_4G + ACCEL_Y_OFFSET;
+  	          //data_imu.az = az_raw / OPERATION_4G + ACCEL_Z_OFFSET;
   	          data_imu.temp = (tp_raw / 310.0f) + 18.53f;
-  	          data_imu.gx = gx_raw / OPERATION_1000;
+  	          //data_imu.gx = gx_raw / OPERATION_1000;
   	          data_imu.gy = gy_raw / OPERATION_1000;
   	          data_imu.gz = gz_raw / OPERATION_1000;
 
