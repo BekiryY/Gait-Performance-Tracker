@@ -101,6 +101,20 @@ int _write(int file, char *ptr, int len)
   return len;
 }
 
+static void LowPowerDelay(uint32_t delay_ms)
+{
+    uint32_t start = HAL_GetTick();
+    // Enable Power Control clock
+    __HAL_RCC_PWR_CLK_ENABLE();
+
+    while ((HAL_GetTick() - start) < delay_ms)
+    {
+        // Enter Sleep Mode (CPU disabled, Peripherals+SysTick enabled)
+        // Wakes up every 1ms via SysTick interrupt to check loop condition
+        HAL_PWR_EnterSLEEPMode(PWR_MAINREGULATOR_ON, PWR_SLEEPENTRY_WFI);
+    }
+}
+
 
 int main(void)
 {
@@ -238,7 +252,7 @@ int main(void)
   	                      while(res != NRF24_TX_OK)
   	                      {
   	                          UART_SendString(">> FULL BATCH SENT: FAILED. Retrying in 5s...\r\n");
-  	                          HAL_Delay(5000);
+  	                          LowPowerDelay(5000);
   	                          res = NRF24_Transmit((uint8_t*)&sentData, sizeof(sentData));
   	                      }
 
@@ -278,7 +292,7 @@ int main(void)
   	              while(res != NRF24_TX_OK)
   	              {
   	                  UART_SendString(">> TIMEOUT FLUSH: FAILED. Retrying in 5s...\r\n");
-  	                  HAL_Delay(5000);
+  	                  LowPowerDelay(5000);
   	                  res = NRF24_Transmit((uint8_t*)&sentData, sizeof(sentData));
   	              }
 
